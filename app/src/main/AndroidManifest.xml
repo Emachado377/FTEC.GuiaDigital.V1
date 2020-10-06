@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TelaMapa"></activity>
+        <activity android:name=".LocalTemporario" />
+        <activity android:name=".Favoritos" />
+        <activity android:name=".BuscarLink" />
+        <activity android:name=".Localizacao" />
+        <activity android:name=".CompartilharGuiaDigital" />
+        <activity android:name=".PercursoPlanejado" />
+        <activity android:name=".AtribuirAvatar" />
+        <activity android:name=".DefinirImagem" />
+        <activity android:name=".GravarPosicao" />
+        <activity android:name=".ConfigurarPerfil" />
+        <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
