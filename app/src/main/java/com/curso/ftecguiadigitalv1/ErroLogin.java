@@ -7,23 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ErroLogin extends AppCompatActivity {
 
-
-    private Button buttonIcone;
+    private Button buttonVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_erro_login);
 
-        buttonIcone = findViewById(R.id.Icone);
+        buttonVoltar = findViewById(R.id.button_voltar);
 
-        buttonIcone.setOnClickListener(new View.OnClickListener(){
+        buttonVoltar.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent tela_Login = new Intent(MainActivity.this, Login.class);
-                startActivity(tela_Login);
+                Intent tela_Sobre = new Intent(ErroLogin.this, Login.class);
+                startActivity(tela_Sobre);
             }
         });
     }
