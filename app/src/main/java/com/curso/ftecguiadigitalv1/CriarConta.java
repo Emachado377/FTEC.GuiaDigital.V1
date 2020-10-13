@@ -19,26 +19,26 @@ public class CriarConta extends AppCompatActivity {
 
         buttonEnviar = findViewById(R.id.button_enviar);
 
-        buttonEnviar.setOnClickListener(new View.OnClickListener(){
+        buttonEnviar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 EditText nome_digitado = (EditText) findViewById(R.id.editTextTextPersonName);
                 String nome = nome_digitado.getText().toString();
 
-                EditText email_digitado = (EditText) findViewById(R.id.editTextTextEmailAddress2);
+                EditText email_digitado = (EditText) findViewById(R.id.editTextTextEmailAddress);
                 String email = email_digitado.getText().toString();
 
-                EditText senha_digitada = (EditText) findViewById(R.id.editTextNumber);
-                String senha = senha_digitado.getText().toString();
+                EditText senha_digitada = (EditText) findViewById(R.id.editTextTextPassword);
+                String senha = senha_digitada.getText().toString();
 
-                if (!nome.equals("")  || !email.equals("")|| !senha.equals("")){
-                    Intent tela_sucesso = new Intent(Cadastro.this, Sucesso_Cadastro.class);
-                    tela_sucesso.putExtra("nome_digitado",nome);
+                if (!nome.equals("") && !email.equals("") && !senha.equals("")) {
+                    Intent tela_sucesso = new Intent(CriarConta.this, SucessoCriaConta.class);
+                    tela_sucesso.putExtra("nome_digitado", nome);
                     startActivity(tela_sucesso);
-                }
-                else{
-                    Intent tela_Erro = new Intent(Cadastro.this, Erro_Cadastro.class);
+                } else {
+                    Intent tela_Erro = new Intent(CriarConta.this, ErroCriarConta.class);
                     startActivity(tela_Erro);
                 }
             }
         });
+    }
 }

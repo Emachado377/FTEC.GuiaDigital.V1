@@ -7,21 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ErroLogin extends AppCompatActivity {
+public class ErroCriarConta extends AppCompatActivity {
 
     private Button buttonVoltar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_erro_login);
-
+        setContentView(R.layout.activity_erro_criar_conta);
         buttonVoltar = findViewById(R.id.button_iniciar);
 
-        buttonVoltar.setOnClickListener(new View.OnClickListener(){
+        buttonVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent tela_Sobre = new Intent(ErroLogin.this, Login.class);
+                Intent tela_Sobre = new Intent(ErroCriarConta.this, CriarConta.class);
                 startActivity(tela_Sobre);
             }
         });

@@ -10,7 +10,9 @@ import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
 
-    private Button buttonEnviar;
+    private Button buttonEntrar;
+    private Button buttonCriarConta;
+
     String email = "evandro@gmail.com";
     String senha = "12345";
     String emailDigitado;
@@ -21,9 +23,10 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        buttonEnviar = findViewById(R.id.button_enviar);
+        buttonEntrar = findViewById(R.id.button_entrar);
+        buttonCriarConta = findViewById(R.id.criar_conta1);
 
-        buttonEnviar.setOnClickListener(new View.OnClickListener(){
+        buttonEntrar.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 EditText email_digitado = (EditText) findViewById(R.id.editTextTextEmailAddress);
                 emailDigitado = email_digitado.getText().toString();
@@ -40,6 +43,13 @@ public class Login extends AppCompatActivity {
                     startActivity(sucesso_Login);
                 }
 
+            }
+        });
+       buttonCriarConta.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent criarconta = new Intent(Login.this, CriarConta.class);
+                startActivity(criarconta);
             }
         });
     }
