@@ -16,7 +16,7 @@ public class ErroLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_erro_login);
 
-        buttonVoltar = findViewById(R.id.button_iniciar);
+        buttonVoltar = findViewById(R.id.button_voltar);
 
         buttonVoltar.setOnClickListener(new View.OnClickListener(){
             @Override

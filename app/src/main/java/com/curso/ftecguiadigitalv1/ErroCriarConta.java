@@ -19,8 +19,8 @@ public class ErroCriarConta extends AppCompatActivity {
         buttonVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent tela_Sobre = new Intent(ErroCriarConta.this, CriarConta.class);
-                startActivity(tela_Sobre);
+                Intent tela_Criar_Conta = new Intent(ErroCriarConta.this, CriarConta.class);
+                startActivity(tela_Criar_Conta);
             }
         });
     }

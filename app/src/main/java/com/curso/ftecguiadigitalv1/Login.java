@@ -45,7 +45,7 @@ public class Login extends AppCompatActivity {
 
             }
         });
-       buttonCriarConta.setOnClickListener(new View.OnClickListener(){
+        buttonCriarConta.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent criarconta = new Intent(Login.this, CriarConta.class);
