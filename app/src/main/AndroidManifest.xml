@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ErroCriarConta"></activity>
+        <activity android:name=".AdicionarLocalTemporario"></activity>
+        <activity android:name=".ErroGravarPosicao" />
+        <activity android:name=".ErroCriarConta" />
         <activity android:name=".SucessoCriaConta" />
         <activity android:name=".ErroLogin" />
         <activity android:name=".Notificacoes" />

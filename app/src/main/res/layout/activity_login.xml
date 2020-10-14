@@ -66,6 +66,7 @@
         android:layout_marginTop="88dp"
         android:backgroundTint="#B9F6CA"
         android:text="Esqueceu sua Senha?"
+        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/button_entrar" />
 
@@ -75,6 +76,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#B9F6CA"
         android:text="Criar Conta"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/esqueceuSenha"
         app:layout_constraintTop_toBottomOf="@+id/esqueceuSenha"

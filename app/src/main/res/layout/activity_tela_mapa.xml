@@ -4,25 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E8E7E7"
     tools:context=".TelaMapa">
 
     <Button
         android:id="@+id/Percurso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="#B9F6CA"
         android:text="Percurso"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <Button
         android:id="@+id/Gravar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:backgroundTint="#B9F6CA"
         android:text="Gravar Posição"
+        android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="@+id/Percurso"
         app:layout_constraintTop_toTopOf="@+id/Percurso" />
 
@@ -30,8 +35,20 @@
         android:id="@+id/Configurar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#B9F6CA"
         android:text="Configurar"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Gravar"
         app:layout_constraintTop_toTopOf="@+id/Gravar" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAPA GOOGLE -AQUI!!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
