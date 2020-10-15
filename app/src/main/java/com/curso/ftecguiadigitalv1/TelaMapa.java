@@ -12,6 +12,7 @@ public class TelaMapa extends AppCompatActivity {
     private Button Percurso;
     private Button GravarPosicao;
     private Button Configurar;
+    private Button Sair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class TelaMapa extends AppCompatActivity {
         Percurso = findViewById(R.id.Percurso);
         GravarPosicao = findViewById(R.id.Gravar);
         Configurar = findViewById(R.id.Configurar);
+        Sair = findViewById(R.id.button_Sair);
 
         Percurso.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -43,6 +45,14 @@ public class TelaMapa extends AppCompatActivity {
             public void onClick(View v) {
                 Intent tela_Percurso = new Intent(TelaMapa.this, ConfigurarPerfil.class);
                 startActivity(tela_Percurso);
+            }
+        });
+
+        Sair.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent tela_Inicial = new Intent(TelaMapa.this, MainActivity.class);
+                startActivity(tela_Inicial);
             }
         });
     }

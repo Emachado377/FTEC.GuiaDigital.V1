@@ -30,7 +30,7 @@ public class LocalTemporario extends AppCompatActivity {
         button_Adicionar.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent tela_Adicionar = new Intent(LocalTemporario.this, AdicionarLocalTemporario.class);
+                Intent tela_Adicionar = new Intent(LocalTemporario.this, GravarPosicao.class);
                 startActivity(tela_Adicionar);
             }
         });

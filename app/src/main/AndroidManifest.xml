@@ -9,12 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdicionarLocalTemporario"></activity>
+        <activity android:name=".ConfigurarConta"></activity>
         <activity android:name=".ErroGravarPosicao" />
         <activity android:name=".ErroCriarConta" />
         <activity android:name=".SucessoCriaConta" />
         <activity android:name=".ErroLogin" />
-        <activity android:name=".Notificacoes" />
         <activity android:name=".Sobre" />
         <activity android:name=".CriarConta" />
         <activity android:name=".TelaMapa" />
@@ -25,7 +24,6 @@
         <activity android:name=".MeusAmigos" />
         <activity android:name=".PercursoPlanejado" />
         <activity android:name=".AtribuirAvatar" />
-        <activity android:name=".DefinirImagem" />
         <activity android:name=".GravarPosicao" />
         <activity android:name=".ConfigurarPerfil" />
         <activity android:name=".Login" />

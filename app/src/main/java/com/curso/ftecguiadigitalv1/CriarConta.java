@@ -17,7 +17,7 @@ public class CriarConta extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_criar_conta);
 
-        buttonEnviar = findViewById(R.id.button_enviar);
+        buttonEnviar = findViewById(R.id.salvar_sair);
 
         buttonEnviar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

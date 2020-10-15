@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B9F6CA"
     tools:context=".ErroCriarConta">
 
     <TextView
@@ -38,7 +39,7 @@
         android:layout_marginTop="180dp"
         android:backgroundTint="#FDD835"
         android:text="VOLTAR"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
