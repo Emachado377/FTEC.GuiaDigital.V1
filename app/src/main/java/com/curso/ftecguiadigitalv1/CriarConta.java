@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.sql.DriverManager;
+
 public class CriarConta extends AppCompatActivity {
 
     private Button buttonEnviar;
@@ -33,7 +35,9 @@ public class CriarConta extends AppCompatActivity {
                 if (!nome.equals("") && !email.equals("") && !senha.equals("")) {
                     Intent tela_sucesso = new Intent(CriarConta.this, SucessoCriaConta.class);
                     tela_sucesso.putExtra("nome_digitado", nome);
+                    //System.out.print(nome);
                     startActivity(tela_sucesso);
+
                 } else {
                     Intent tela_Erro = new Intent(CriarConta.this, ErroCriarConta.class);
                     startActivity(tela_Erro);
