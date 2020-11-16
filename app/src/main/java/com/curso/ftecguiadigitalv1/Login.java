@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity {
                     startActivity(erro_Login);
                 }
                 else {
-                    Intent sucesso_Login = new Intent(Login.this, TelaMapa.class);
+                    Intent sucesso_Login = new Intent(Login.this, TelaPrincipal.class);
                     startActivity(sucesso_Login);
                 }
 

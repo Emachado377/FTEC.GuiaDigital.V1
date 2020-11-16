@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FTEC.GuiaDigital.V1</string>
+    <string name="title_activity_tela_principal">Map</string>
 </resources>
