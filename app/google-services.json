@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1038529844111",
+    "firebase_url": "https://guia-digital-280e2.firebaseio.com",
+    "project_id": "guia-digital-280e2",
+    "storage_bucket": "guia-digital-280e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038529844111:android:ad5d9e78c1f6e93380f1fa",
+        "android_client_info": {
+          "package_name": "com.firebase.ftecguiadigitalv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038529844111-k15uoufpd5mheu060fn6mt6cshbfk4up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.ftecguiadigitalv1",
+            "certificate_hash": "b6cf5e495a5fbcf59263a2d3f46eb3a49160e420"
+          }
+        },
+        {
+          "client_id": "1038529844111-7cke95u1gig9s4i7tjeciukl7sk7sioq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAohrLSTR72Ogb6wJiRbhLah2KyjW4xTI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038529844111-7cke95u1gig9s4i7tjeciukl7sk7sioq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
