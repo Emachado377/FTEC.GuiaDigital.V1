@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.042" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/idmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/senha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -45,8 +45,8 @@
         android:hint="Senha"
         android:inputType="textPassword"
         android:textAlignment="viewStart"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintStart_toStartOf="@+id/idmail"
+        app:layout_constraintTop_toBottomOf="@+id/idmail" />
 
     <Button
         android:id="@+id/salvar_sair"
@@ -70,8 +70,8 @@
         android:text="Definir Avatar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintStart_toEndOf="@+id/senha"
+        app:layout_constraintTop_toBottomOf="@+id/senha" />
 
     <Button
         android:id="@+id/button2"

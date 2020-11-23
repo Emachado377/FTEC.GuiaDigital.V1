@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import java.sql.DriverManager;
-
 public class CriarConta extends AppCompatActivity {
 
     private Button buttonEnviar;
@@ -26,10 +24,10 @@ public class CriarConta extends AppCompatActivity {
                 EditText nome_digitado = (EditText) findViewById(R.id.editTextTextPersonName);
                 String nome = nome_digitado.getText().toString();
 
-                EditText email_digitado = (EditText) findViewById(R.id.editTextTextEmailAddress);
+                EditText email_digitado = (EditText) findViewById(R.id.idmail);
                 String email = email_digitado.getText().toString();
 
-                EditText senha_digitada = (EditText) findViewById(R.id.editTextTextPassword);
+                EditText senha_digitada = (EditText) findViewById(R.id.senha);
                 String senha = senha_digitada.getText().toString();
 
                 if (!nome.equals("") && !email.equals("") && !senha.equals("")) {
